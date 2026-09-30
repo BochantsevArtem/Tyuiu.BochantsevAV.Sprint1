@@ -5,6 +5,7 @@ namespace Tyuiu.BochantsevAV.Sprint1.Task7.V4
     {
         static void Main(string[] args)
         {
+           
             DataService ds = new DataService();
 
             Console.Title = "Спринт #1 | Выполнил: Бочанцев А.В | ИИПБ-26-1";
