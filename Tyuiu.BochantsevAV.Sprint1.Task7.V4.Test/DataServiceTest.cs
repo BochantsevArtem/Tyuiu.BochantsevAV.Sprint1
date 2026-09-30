@@ -9,9 +9,9 @@ namespace Tyuiu.BochantsevAV.Sprint1.Task7.V4.Test
         {
             DataService ds = new DataService();
 
-            double result = ds.Calculate(4, 5);
+            double result = ds.Calculate(2, 4);
 
-            Assert.AreEqual(2.315, result, 0.001);
+            Assert.AreEqual(0.545, result, 0.001);
         }
     }
 }
